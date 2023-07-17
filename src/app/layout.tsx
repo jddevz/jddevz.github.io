@@ -6,7 +6,10 @@ import { Footer } from "./components/footer";
 import { Divider } from "./components/divider";
 
 const inter = Inter({ subsets: ["latin"] });
-const ibmPlexMono = IBM_Plex_Mono({ weight: "400", subsets: ["latin"] });
+const ibmPlexMono = IBM_Plex_Mono({
+  weight: ["400", "600", "700"],
+  subsets: ["latin"],
+});
 
 export const metadata: Metadata = {
   title: "jddevz",
