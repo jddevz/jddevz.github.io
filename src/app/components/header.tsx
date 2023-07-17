@@ -11,7 +11,7 @@ export const Header = () => {
   return (
     <header className="py-8 flex justify-between text-white items-center">
       <Logo />
-      <ul className="flex">
+      {/* <ul className="flex">
         {HEADINGS.map((heading) => (
           <li key={heading.label} className="ml-3">
             <Link href={heading.link} className="hover:text-blue-400">
@@ -19,7 +19,7 @@ export const Header = () => {
             </Link>
           </li>
         ))}
-      </ul>
+      </ul> */}
     </header>
   );
 };
